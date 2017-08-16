@@ -82,7 +82,7 @@ public class dataSets {
 	@DataProvider(name = "logindata")
 	@Test
 	public Object[][] dataSet() throws IOException {
-		Object[][] obj = new Object[2][2];
+		Object[][] ob = new Object[2][2];
 
 //		String[][] SheetDataSets = e.readExcel("Sheet1");
 //		int rowNum= e.sheetRows;
@@ -94,14 +94,14 @@ public class dataSets {
 		// [2] Password
 
 			
-		obj[1][0] ="annl@gmail.com" ;
-		obj[1][1] = "12345";
+		ob[1][0] ="annl@gmail.com" ;
+		ob[1][1] = "12345";
 		
-		obj[0][0] ="tomt@gmail.com" ;
-		obj[0][1] ="123456";
+		ob[0][0] ="tomt@gmail.com" ;
+		ob[0][1] ="123456";
 		
 			
-		return obj;
+		return ob;
 
 	}
 
