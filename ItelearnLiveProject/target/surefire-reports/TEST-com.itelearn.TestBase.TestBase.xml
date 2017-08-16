@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.itelearn.TestBase.TestBase" time="23.408" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Richa\Desktop\Richa\Workspace1\itelearnLiveProject"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Richa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Richa\Desktop\Richa\Workspace1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1889119909838227237.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_141\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\HashiCorp\Vagrant\bin;C:\Program Files\Java\jdk1.8.0_91\bin;E:\software\apache-maven-3.3.9\bin;C:\Users\Richa\AppData\Local\Android\sdk\platform-tools;C:\Users\Richa\AppData\Local\Android\sdk\tools;C:\Users\Richa\Desktop\Richa\SoapUI&amp;Restful\axis2-1.6.2\axis2-1.6.2\bin;C:\Users\Richa\AppData\Local\Betfair Poker\data\QT;C:\Users\Richa\AppData\Local\Betfair Poker\data\OpenSSL;C:\Users\Richa\AppData\Local\Microsoft\WindowsApps;C:\Users\Richa\Desktop\Richa\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;;E:\Work\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Richa"/>
+    <property name="user.timezone" value="America/Phoenix"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Richa"/>
+    <property name="java.class.path" value="/E:/Work/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_141"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_141\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_141\lib\resources.jar;C:\Program Files\Java\jre1.8.0_141\lib\rt.jar;C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_141\lib\jce.jar;C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_141\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Richa\Desktop\Richa\Workspace1\itelearnLiveProject\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/E:/Work/eclipse/configuration/org.eclipse.osgi/bundles/535/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.itelearn.TestBase.TestBase" name="basetest" time="20.979">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.itelearn.Utility.SeleniumHelper.elementTyp(SeleniumHelper.java:81)
+	at com.itelearn.Utility.SeleniumHelper.clicklnk(SeleniumHelper.java:161)
+	at com.itelearn.Utility.SeleniumHelper.execute(SeleniumHelper.java:37)
+	at com.itelearn.TestBase.TestBase.basetest(TestBase.java:80)
+</failure>
+    <system-out>--------------Reading test cases----------------
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@275710fc
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        Sign Up a new Freelancer Account 
+VALUE OF COL :3        N
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@525f1e4e
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        Sign Up a new Freelancer Account with invalid email address
+VALUE OF COL :3        N
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@75f9eccc
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        Find Projects for Freelancer without login
+VALUE OF COL :3        N
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@52aa2946
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        Freelancer able to check Inbox
+VALUE OF COL :3        N
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@4de5031f
+VALUE OF COL :0        M_FreeL_UpdateProfile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        Freelancer able to update profile
+VALUE OF COL :3        N
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@67e2d983
+VALUE OF COL :0        M_FreeL_LogOut_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        Freelancer able to Logout
+VALUE OF COL :3        N
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@5d47c63f
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        Login using correct username/password
+VALUE OF COL :3        Y
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@25a65b77
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Browser Name
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@50a7bc6e
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to Home page url
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12        null
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@161b062a
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@17c1bced
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Introducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        40.0
+VALUE OF COL :12        null
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@2d9d4f9d
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Click on SignUp
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        hp_SignUpButton
+VALUE OF COL :8        html/body/header/div/div/div[4]/div/ul/li[2]/a
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@4034c28c
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Click on Freelancer SignUp 
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_bttn
+VALUE OF COL :8        html/body/div[1]/div/div/div/div/div[1]/div/div[2]/div/a
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@e50a6f6
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Enter Firstname
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_firstname
+VALUE OF COL :8        .//input[@id=&apos;first_name&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_firstname
+VALUE OF COL :11        Ann
+VALUE OF COL :12        xpath
+ROW OBJECT AT 8org.apache.poi.hssf.usermodel.HSSFRow@14ec4505
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Enter Lastname
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_lastname
+VALUE OF COL :8        .//input[@id=&apos;last_name&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_lastname
+VALUE OF COL :11        GG
+VALUE OF COL :12        xpath
+ROW OBJECT AT 9org.apache.poi.hssf.usermodel.HSSFRow@53ca01a2
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Enter email address
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_email
+VALUE OF COL :8        .//input[@id=&apos;user_email&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_email
+VALUE OF COL :11        anngg@gmail.com
+VALUE OF COL :12        xpath
+ROW OBJECT AT 10org.apache.poi.hssf.usermodel.HSSFRow@358c99f5
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Enter Username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_username
+VALUE OF COL :8        .//input[@id=&apos;user_login&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        anngg
+VALUE OF COL :12        xpath
+ROW OBJECT AT 11org.apache.poi.hssf.usermodel.HSSFRow@3ee0fea4
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Enter Password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_rPwd
+VALUE OF COL :8        .//input[@id=&apos;user_pass&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        abcd1
+VALUE OF COL :12        xpath
+ROW OBJECT AT 12org.apache.poi.hssf.usermodel.HSSFRow@48524010
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        12.0
+VALUE OF COL :3        Confirm password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_rPwd
+VALUE OF COL :8        .//input[@id=&apos;repeat_pass&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        abcd1
+VALUE OF COL :12        xpath
+ROW OBJECT AT 13org.apache.poi.hssf.usermodel.HSSFRow@4b168fa9
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_001
+VALUE OF COL :2        13.0
+VALUE OF COL :3        Click on SignUp
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_bttn
+VALUE OF COL :8        .//button[text()=&apos;Sign Up&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 14org.apache.poi.hssf.usermodel.HSSFRow@1a84f40f
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 15org.apache.poi.hssf.usermodel.HSSFRow@23282c25
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to the URL
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 16org.apache.poi.hssf.usermodel.HSSFRow@7920ba90
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 17org.apache.poi.hssf.usermodel.HSSFRow@6b419da
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Intoducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 18org.apache.poi.hssf.usermodel.HSSFRow@3b2da18f
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Click on SIGN UP Link
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        hp_SignUpButtom
+VALUE OF COL :8        .//a[text()=&apos;SIGN UP&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 19org.apache.poi.hssf.usermodel.HSSFRow@5906ebcb
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Click on Sign Up Button on SignUp Account Page under Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        su_FreelancerBtn
+VALUE OF COL :8        .//div[@class=&apos;register-freelancer&apos;]/a
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 20org.apache.poi.hssf.usermodel.HSSFRow@258e2e41
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Enter the valid firstname for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_firstname
+VALUE OF COL :8        .//input[@id=&apos;first_name&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_vUsername
+VALUE OF COL :11        Ann
+VALUE OF COL :12        xpath
+ROW OBJECT AT 21org.apache.poi.hssf.usermodel.HSSFRow@3d299e3
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Enter the valid lastname for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_lastname
+VALUE OF COL :8        .//input[@id=&apos;last_name&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_vlastname
+VALUE OF COL :11        A
+VALUE OF COL :12        xpath
+ROW OBJECT AT 22org.apache.poi.hssf.usermodel.HSSFRow@55a561cf
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Enter the Invalid Email for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_email
+VALUE OF COL :8        .//input[@id=&apos;user_email&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_invalidEmail
+VALUE OF COL :11        abc
+VALUE OF COL :12        xpath
+ROW OBJECT AT 23org.apache.poi.hssf.usermodel.HSSFRow@3b938003
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Intoducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 24org.apache.poi.hssf.usermodel.HSSFRow@6f3b5d16
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Enter valid Username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_username
+VALUE OF COL :8        .//input[@id=&apos;user_login&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        anngg
+VALUE OF COL :12        xpath
+ROW OBJECT AT 25org.apache.poi.hssf.usermodel.HSSFRow@78b1cc93
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        12.0
+VALUE OF COL :3        Verify the error message for invalid Email Address
+VALUE OF COL :4        LLK
+VALUE OF COL :5        verifytext
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7         - 
+VALUE OF COL :8        .//*[@id=&apos;signup_form&apos;]/div[3]/div
+VALUE OF COL :9         - 
+VALUE OF COL :10        Freelancer_verifytext
+VALUE OF COL :11        Please enter a valid email address.
+VALUE OF COL :12        xpath
+ROW OBJECT AT 26org.apache.poi.hssf.usermodel.HSSFRow@6646153
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        13.0
+VALUE OF COL :3        Enter the valid Password for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_password
+VALUE OF COL :8        .//input[@id=&apos;user_pass&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_vPassword
+VALUE OF COL :11        xyz123
+VALUE OF COL :12        xpath
+ROW OBJECT AT 27org.apache.poi.hssf.usermodel.HSSFRow@21507a04
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        14.0
+VALUE OF COL :3         Confirm Password for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_rPwd
+VALUE OF COL :8        .//input[@id=&apos;repeat_pass&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_vConfPwd
+VALUE OF COL :11        xyz123
+VALUE OF COL :12        xpath
+ROW OBJECT AT 28org.apache.poi.hssf.usermodel.HSSFRow@143640d5
+VALUE OF COL :0        M_FreeL_SignUp_003
+VALUE OF COL :1        TC_FreeL_SignUp_002
+VALUE OF COL :2        15.0
+VALUE OF COL :3        Click on Sign Up Button for Freelancer
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        FreeSU_bttn
+VALUE OF COL :8        .//button[text()=&apos;Sign Up&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 29org.apache.poi.hssf.usermodel.HSSFRow@6295d394
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open Browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        -
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 30org.apache.poi.hssf.usermodel.HSSFRow@475e586c
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to URL
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        -
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12        null
+ROW OBJECT AT 31org.apache.poi.hssf.usermodel.HSSFRow@657c8ad9
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 32org.apache.poi.hssf.usermodel.HSSFRow@436a4e4b
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Introducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 33org.apache.poi.hssf.usermodel.HSSFRow@f2f2cc1
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Move the mouse to Freelancers dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        mouseHover
+VALUE OF COL :6        -
+VALUE OF COL :7        Freelancer_findproj_dd
+VALUE OF COL :8        html/body/header/div/div/div[3]/ul/li[1]/a/i
+VALUE OF COL :9        -
+VALUE OF COL :10        FreeLancer_findprojectsLink
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 34org.apache.poi.hssf.usermodel.HSSFRow@3a079870
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Click on the FindProjects link in dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freelancer_findproj_dd_findProjectsLink
+VALUE OF COL :8        FIND PROJECTS
+VALUE OF COL :9        
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        linktext
+ROW OBJECT AT 35org.apache.poi.hssf.usermodel.HSSFRow@3b2cf7ab
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Enter the Keyword
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_keywordsBox
+VALUE OF COL :8        .//div[contains(@class,&apos;fre-input-field&apos;)]/input[@id=&apos;s&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_proj_keyword
+VALUE OF COL :11        Selenium
+VALUE OF COL :12        xpath
+ROW OBJECT AT 36org.apache.poi.hssf.usermodel.HSSFRow@2aa5fe93
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Choose Skill from dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_SkillsBox
+VALUE OF COL :8        .//input[@id=&apos;skills&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_choose_skills
+VALUE OF COL :11        -
+VALUE OF COL :12        xpath
+ROW OBJECT AT 37org.apache.poi.hssf.usermodel.HSSFRow@5c1a8622
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Click on a Skill type required
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_SkillsBox_SelectSkill
+VALUE OF COL :8        .//a[@class=&apos;fre-skill-item&apos;][@name=&apos;alpha-testing&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_choose_aSkillType
+VALUE OF COL :11        -
+VALUE OF COL :12        xpath
+ROW OBJECT AT 38org.apache.poi.hssf.usermodel.HSSFRow@5ad851c9
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Click on Category  DropDown box
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_projCategory_Box
+VALUE OF COL :8        .//div[@id=&apos;project_category_chosen&apos;]/a/div/b
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_choose_category
+VALUE OF COL :11        -
+VALUE OF COL :12        xpath
+ROW OBJECT AT 39org.apache.poi.hssf.usermodel.HSSFRow@6156496
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Click on the category from category Dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_projCategory_dropdown_clicklink
+VALUE OF COL :8        .//*[@id=&apos;project_category_chosen&apos;]/div[@class=&apos;chosen-drop&apos;]/ul/li[2]
+VALUE OF COL :9        
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        xpath
+ROW OBJECT AT 40org.apache.poi.hssf.usermodel.HSSFRow@3c153a1
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        12.0
+VALUE OF COL :3        Choose Location(country) from dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_chooseCountry_Box
+VALUE OF COL :8        .//div[@id=&apos;country_chosen&apos;]/a
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_choose_Country
+VALUE OF COL :11        -
+VALUE OF COL :12        xpath
+ROW OBJECT AT 41org.apache.poi.hssf.usermodel.HSSFRow@b62fe6d
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        13.0
+VALUE OF COL :3        Click on the Country from Location Dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_chooseCountry_dropdown_clickCountry
+VALUE OF COL :8        .//div[@id=&apos;country_chosen&apos;]/div/ul/li[2]
+VALUE OF COL :9        
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        xpath
+ROW OBJECT AT 42org.apache.poi.hssf.usermodel.HSSFRow@13acb0d1
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        14.0
+VALUE OF COL :3        Click the budget buttons 
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_chooseBudget
+VALUE OF COL :8        .//input[@id=&apos;budget&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        Freelancer_choose_budget
+VALUE OF COL :11        100.0
+VALUE OF COL :12        xpath
+ROW OBJECT AT 43org.apache.poi.hssf.usermodel.HSSFRow@3e3047e6
+VALUE OF COL :0        M_FreeL_Projects_006
+VALUE OF COL :1        TC_FindProj_001
+VALUE OF COL :2        15.0
+VALUE OF COL :3        Verify the Projects found
+VALUE OF COL :4        LLK
+VALUE OF COL :5        verifytext
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        Freel_Projects_verifyText
+VALUE OF COL :8        .//div[@class=&apos;fre-project-result&apos;]/p/span[1]/span
+VALUE OF COL :9        -
+VALUE OF COL :10        
+VALUE OF COL :11        0.0
+VALUE OF COL :12        xpath
+ROW OBJECT AT 44org.apache.poi.hssf.usermodel.HSSFRow@37e547da
+VALUE OF COL :0        
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+VALUE OF COL :4        
+VALUE OF COL :5        
+VALUE OF COL :6        
+VALUE OF COL :7        
+VALUE OF COL :8        
+VALUE OF COL :9        
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        null
+ROW OBJECT AT 45org.apache.poi.hssf.usermodel.HSSFRow@2b6856dd
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open Browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        
+VALUE OF COL :10        Browser Name
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 46org.apache.poi.hssf.usermodel.HSSFRow@5db45159
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to URL
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12        null
+ROW OBJECT AT 47org.apache.poi.hssf.usermodel.HSSFRow@6107227e
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 48org.apache.poi.hssf.usermodel.HSSFRow@7c417213
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Click on the Login Button on Home Page
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        hp_loginButton
+VALUE OF COL :8        .//a[text()=&apos;LOGIN&apos;]
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 49org.apache.poi.hssf.usermodel.HSSFRow@15761df8
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Enter valid username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_username
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        anngg
+VALUE OF COL :12        xpath
+ROW OBJECT AT 50org.apache.poi.hssf.usermodel.HSSFRow@6ab7a896
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Enter valid password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_password
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        abcd1
+VALUE OF COL :12        xpath
+ROW OBJECT AT 51org.apache.poi.hssf.usermodel.HSSFRow@327b636c
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Introducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 52org.apache.poi.hssf.usermodel.HSSFRow@45dd4eda
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Click on Login Button
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_LoginButton
+VALUE OF COL :8        .//button[text()=&apos;Log In&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        xpath
+ROW OBJECT AT 53org.apache.poi.hssf.usermodel.HSSFRow@60611244
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Click on LOGIN ICON link on top right 
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :8        .fre-account-info.dropdown-toggle
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        cssSelector
+ROW OBJECT AT 54org.apache.poi.hssf.usermodel.HSSFRow@3745e5c6
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Click on Inbox link
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :8        INBOX
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        linktext
+ROW OBJECT AT 55org.apache.poi.hssf.usermodel.HSSFRow@5e4c8041
+VALUE OF COL :0        M_FreeL_Profile_009
+VALUE OF COL :1        TC_FreeL_chkInbox_001
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Verify text in the Message Box
+VALUE OF COL :4        LLK
+VALUE OF COL :5        verifyTitle
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :8        -
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11        profile | QAonAir
+VALUE OF COL :12        null
+ROW OBJECT AT 56org.apache.poi.hssf.usermodel.HSSFRow@71c8becc
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open Browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        
+VALUE OF COL :10        Browser Name
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 57org.apache.poi.hssf.usermodel.HSSFRow@19d37183
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to URL
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12        null
+ROW OBJECT AT 58org.apache.poi.hssf.usermodel.HSSFRow@1a0dcaa
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 59org.apache.poi.hssf.usermodel.HSSFRow@3bd40a57
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Click on the Login Button on Home Page
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        hp_loginButton
+VALUE OF COL :8        .//a[text()=&apos;LOGIN&apos;]
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 60org.apache.poi.hssf.usermodel.HSSFRow@fdefd3f
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Enter valid username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_username
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        anngg
+VALUE OF COL :12        xpath
+ROW OBJECT AT 61org.apache.poi.hssf.usermodel.HSSFRow@d83da2e
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Enter valid password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_password
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        abcd1
+VALUE OF COL :12        xpath
+ROW OBJECT AT 62org.apache.poi.hssf.usermodel.HSSFRow@a4102b8
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Introducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 63org.apache.poi.hssf.usermodel.HSSFRow@11dc3715
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Click on Login Button
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_LoginButton
+VALUE OF COL :8        .//button[text()=&apos;Log In&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        xpath
+ROW OBJECT AT 64org.apache.poi.hssf.usermodel.HSSFRow@69930714
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Click on MY PROFILE  link
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :8        .fre-account-info.dropdown-toggle
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        cssSelector
+ROW OBJECT AT 65org.apache.poi.hssf.usermodel.HSSFRow@7a52f2a2
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Click on MY PROFILE  link
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon_myProfile
+VALUE OF COL :8        MY PROFILE
+VALUE OF COL :9        
+VALUE OF COL :10        
+VALUE OF COL :11        
+VALUE OF COL :12        linktext
+ROW OBJECT AT 66org.apache.poi.hssf.usermodel.HSSFRow@78047b92
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Enter valid Address
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        pp_address
+VALUE OF COL :8        .//input[@id=&apos;location&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_address
+VALUE OF COL :11        123 abc
+VALUE OF COL :12        xpath
+ROW OBJECT AT 67org.apache.poi.hssf.usermodel.HSSFRow@8909f18
+VALUE OF COL :0        M_FreeL_Profile_11
+VALUE OF COL :1        TC_FreeL_UpdateProfile_001
+VALUE OF COL :2        12.0
+VALUE OF COL :3        Click on UPDATE Button
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        pp_updareButton
+VALUE OF COL :8        .//form[@id=&apos;account_form&apos;]/div[9]/input
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 68org.apache.poi.hssf.usermodel.HSSFRow@79ca92b9
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open Browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        
+VALUE OF COL :10        Browser Name
+VALUE OF COL :11        Chrome
+VALUE OF COL :12        null
+ROW OBJECT AT 69org.apache.poi.hssf.usermodel.HSSFRow@1460a8c0
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Navigate to URL
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12        null
+ROW OBJECT AT 70org.apache.poi.hssf.usermodel.HSSFRow@4f638935
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        null
+ROW OBJECT AT 71org.apache.poi.hssf.usermodel.HSSFRow@4387b79e
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        4.0
+VALUE OF COL :3        Click on the Login Button on Home Page
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        hp_loginButton
+VALUE OF COL :8        .//a[text()=&apos;LOGIN&apos;]
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 72org.apache.poi.hssf.usermodel.HSSFRow@6e75aa0d
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Enter valid username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_username
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        anngg
+VALUE OF COL :12        xpath
+ROW OBJECT AT 73org.apache.poi.hssf.usermodel.HSSFRow@7fc229ab
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        6.0
+VALUE OF COL :3        Enter valid password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_password
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        abcd1
+VALUE OF COL :12        xpath
+ROW OBJECT AT 74org.apache.poi.hssf.usermodel.HSSFRow@2cbb3d47
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        7.0
+VALUE OF COL :3        Introducing wait
+VALUE OF COL :4        LLK
+VALUE OF COL :5        wait
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        -
+VALUE OF COL :8         - 
+VALUE OF COL :9         - 
+VALUE OF COL :10         - 
+VALUE OF COL :11        35.0
+VALUE OF COL :12        null
+ROW OBJECT AT 75org.apache.poi.hssf.usermodel.HSSFRow@527e5409
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        8.0
+VALUE OF COL :3        Click on Login Button
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_LoginButton
+VALUE OF COL :8        .//button[text()=&apos;Log In&apos;]
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+ROW OBJECT AT 76org.apache.poi.hssf.usermodel.HSSFRow@1198b989
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        9.0
+VALUE OF COL :3        Click on profile ICON  on top right
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :8        .fre-account-info.dropdown-toggle
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        cssSelector
+ROW OBJECT AT 77org.apache.poi.hssf.usermodel.HSSFRow@7ff95560
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        10.0
+VALUE OF COL :3        Click on LOGOUT  link in the dropdown
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        Freel_ProfilePage_AfterLoginIcon_logout
+VALUE OF COL :8        LOGOUT
+VALUE OF COL :9        -
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        linktext
+ROW OBJECT AT 78org.apache.poi.hssf.usermodel.HSSFRow@add0edd
+VALUE OF COL :0        M_FreeL_Login_12
+VALUE OF COL :1        TC_FreeL_Logout
+VALUE OF COL :2        11.0
+VALUE OF COL :3        Click on Log Out  link
+VALUE OF COL :4        LLK
+VALUE OF COL :5        verifyTitle
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11        -
+VALUE OF COL :12        null
+ROW OBJECT AT 79org.apache.poi.hssf.usermodel.HSSFRow@2aa3cd93
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        1.0
+VALUE OF COL :3        Open the Browser
+VALUE OF COL :4        LLK
+VALUE OF COL :5        openBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Browser Name
+VALUE OF COL :11        Chrome
+VALUE OF COL :12         - 
+ROW OBJECT AT 80org.apache.poi.hssf.usermodel.HSSFRow@7ea37dbf
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        2.0
+VALUE OF COL :3        Enter the Url
+VALUE OF COL :4        LLK
+VALUE OF COL :5        navigateBrowser
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        URL
+VALUE OF COL :11        http://www.qaonair.com
+VALUE OF COL :12         - 
+ROW OBJECT AT 81org.apache.poi.hssf.usermodel.HSSFRow@4b44655e
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        2.1
+VALUE OF COL :3        Maximize the window
+VALUE OF COL :4        LLK
+VALUE OF COL :5        maximizeWindow
+VALUE OF COL :6        -
+VALUE OF COL :7        -
+VALUE OF COL :8        -
+VALUE OF COL :9        -
+VALUE OF COL :10        -
+VALUE OF COL :11        -
+VALUE OF COL :12        -
+ROW OBJECT AT 82org.apache.poi.hssf.usermodel.HSSFRow@290d210d
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        2.2
+VALUE OF COL :3        Click on Login link on home page
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickLink
+VALUE OF COL :6        -
+VALUE OF COL :7        hp_loginButton
+VALUE OF COL :8        html/body/header/div/div/div[4]/div/ul/li[1]/a
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        -
+VALUE OF COL :11        -
+VALUE OF COL :12        xpath
+ROW OBJECT AT 83org.apache.poi.hssf.usermodel.HSSFRow@1d76aeea
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        3.0
+VALUE OF COL :3        Enter valid username
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_username
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_username
+VALUE OF COL :11        Username
+VALUE OF COL :12        xpath
+ROW OBJECT AT 84org.apache.poi.hssf.usermodel.HSSFRow@78dd667e
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        4.0
+VALUE OF COL :3         Enter valid password
+VALUE OF COL :4        LLK
+VALUE OF COL :5        typeText
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_password
+VALUE OF COL :8        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10        Freelancer_password
+VALUE OF COL :11        Password
+VALUE OF COL :12        xapth
+ROW OBJECT AT 85org.apache.poi.hssf.usermodel.HSSFRow@10db82ae
+VALUE OF COL :0        M_loginPg_002
+VALUE OF COL :1        TC_valid_001
+VALUE OF COL :2        5.0
+VALUE OF COL :3        Click on Login Button
+VALUE OF COL :4        LLK
+VALUE OF COL :5        clickButton
+VALUE OF COL :6        Reusable Element
+VALUE OF COL :7        lp_LoginButton
+VALUE OF COL :8        .//button[text()=&apos;Log In&apos;]
+VALUE OF COL :9        Reusable TestData
+VALUE OF COL :10         - 
+VALUE OF COL :11         - 
+VALUE OF COL :12        xpath
+--------  Reading the TestSteps Sheet ----------
+------------------Reading the EID sheet-------------
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@501edcf1
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_loginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;LOGIN&apos;]
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@78b729e6
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_SignUpButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;SIGN UP&apos;]
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@6b4a4e18
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_FreeLancersDropDown
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-menu-freelancer.dropdown&gt;a
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@27c86f2d
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_EmployerDropDown
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;EMPLOYERS&apos;]
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@197d671
+VALUE OF COL :0        Login page
+VALUE OF COL :1        lp_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@402e37bc
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@79ad8b2f
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_LoginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Log In&apos;]
+ROW OBJECT AT 8org.apache.poi.hssf.usermodel.HSSFRow@1df82230
+VALUE OF COL :0        SignUp Page
+VALUE OF COL :1        su_employer
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-employer&apos;]/a
+ROW OBJECT AT 9org.apache.poi.hssf.usermodel.HSSFRow@22635ba0
+VALUE OF COL :0        Sign Up
+VALUE OF COL :1        su_FreelancerBtn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-freelancer&apos;]/a
+ROW OBJECT AT 10org.apache.poi.hssf.usermodel.HSSFRow@13c10b87
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 11org.apache.poi.hssf.usermodel.HSSFRow@6a01e23
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 12org.apache.poi.hssf.usermodel.HSSFRow@5a955565
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 13org.apache.poi.hssf.usermodel.HSSFRow@6293abcc
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 14org.apache.poi.hssf.usermodel.HSSFRow@7995092a
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 15org.apache.poi.hssf.usermodel.HSSFRow@7fc2413d
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_rePwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 16org.apache.poi.hssf.usermodel.HSSFRow@f8c1ddd
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_signup_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 17org.apache.poi.hssf.usermodel.HSSFRow@70be0a2b
+VALUE OF COL :0         Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 18org.apache.poi.hssf.usermodel.HSSFRow@2133814f
+VALUE OF COL :0        Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 19org.apache.poi.hssf.usermodel.HSSFRow@4c15e7fd
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 20org.apache.poi.hssf.usermodel.HSSFRow@23986957
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 21org.apache.poi.hssf.usermodel.HSSFRow@23f7d05d
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 22org.apache.poi.hssf.usermodel.HSSFRow@1e730495
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_rPwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 23org.apache.poi.hssf.usermodel.HSSFRow@7d3a22a9
+VALUE OF COL :0         Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 24org.apache.poi.hssf.usermodel.HSSFRow@1d082e88
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 25org.apache.poi.hssf.usermodel.HSSFRow@60704c
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_button
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Send Password Reset&apos;]
+ROW OBJECT AT 26org.apache.poi.hssf.usermodel.HSSFRow@6b19b79
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_keywordsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[contains(@class,&apos;fre-input-field&apos;)]/input[@id=&apos;s&apos;]
+ROW OBJECT AT 27org.apache.poi.hssf.usermodel.HSSFRow@2a32de6c
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 28org.apache.poi.hssf.usermodel.HSSFRow@7692d9cc
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Choose category&apos;]
+ROW OBJECT AT 29org.apache.poi.hssf.usermodel.HSSFRow@75f32542
+VALUE OF COL :0        Available Projects Page
+VALUE OF COL :1        Freel_Projects_verifyProjectsText
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .plural
+ROW OBJECT AT 30org.apache.poi.hssf.usermodel.HSSFRow@7f1302d6
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Keywords
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;s&apos;]
+ROW OBJECT AT 31org.apache.poi.hssf.usermodel.HSSFRow@43ee72e6
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Skill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 32org.apache.poi.hssf.usermodel.HSSFRow@23529fee
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@id=&apos;project_category_chosen&apos;]/a
+ROW OBJECT AT 33org.apache.poi.hssf.usermodel.HSSFRow@4fe767f3
+VALUE OF COL :0        Update profile button for Freelancers post login on home page
+VALUE OF COL :1        Freel_Update_Profile_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;background_banner&apos;]/div/div/a[2]
+ROW OBJECT AT 34org.apache.poi.hssf.usermodel.HSSFRow@2805c96b
+VALUE OF COL :0        Freelancer profile Page
+VALUE OF COL :1        Freel_Profilepage_accountDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@href=&apos;#tab_account_details&apos;]
+ROW OBJECT AT 35org.apache.poi.hssf.usermodel.HSSFRow@184cf7cf
+VALUE OF COL :0        FreeLancer profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProfileDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[2]/a
+ROW OBJECT AT 36org.apache.poi.hssf.usermodel.HSSFRow@2fd6b6c7
+VALUE OF COL :0        Freelancer Project Details on the Profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProjectDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Project Details&apos;]
+ROW OBJECT AT 37org.apache.poi.hssf.usermodel.HSSFRow@5bfa9431
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_Messages
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[4]/a/span
+ROW OBJECT AT 38org.apache.poi.hssf.usermodel.HSSFRow@5db250b4
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :2        linkText
+VALUE OF COL :3        INBOX
+ROW OBJECT AT 39org.apache.poi.hssf.usermodel.HSSFRow@223f3642
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-account-info.dropdown-toggle
+ROW OBJECT AT 40org.apache.poi.hssf.usermodel.HSSFRow@38c5cc4c
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_myProfile
+VALUE OF COL :2        linkText
+VALUE OF COL :3        MY PROFILE
+ROW OBJECT AT 41org.apache.poi.hssf.usermodel.HSSFRow@37918c79
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_logout
+VALUE OF COL :2        linkText
+VALUE OF COL :3        LOGOUT
+ROW OBJECT AT 42org.apache.poi.hssf.usermodel.HSSFRow@78e94dcf
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox_SelectSkill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@class=&apos;fre-skill-item&apos;][@name=&apos;alpha-testing&apos;]
+ROW OBJECT AT 43org.apache.poi.hssf.usermodel.HSSFRow@233fe9b6
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 44org.apache.poi.hssf.usermodel.HSSFRow@358ee631
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        html/body/header/div/div/div[3]/ul/li[1]/a/i
+ROW OBJECT AT 45org.apache.poi.hssf.usermodel.HSSFRow@ec756bd
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd_findProjectsLink
+VALUE OF COL :2        linkText
+VALUE OF COL :3        FIND PROJECTS
+ROW OBJECT AT 46org.apache.poi.hssf.usermodel.HSSFRow@3c72f59f
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_dropdown_clicklink
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;project_category_chosen&apos;]/div[@class=&apos;chosen-drop&apos;]/ul/li[2]
+ROW OBJECT AT 47org.apache.poi.hssf.usermodel.HSSFRow@60dcc9fe
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_Box
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;project_category_chosen&apos;]/a/div/b
+ROW OBJECT AT 48org.apache.poi.hssf.usermodel.HSSFRow@222114ba
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_verifyText
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;fre-project-result&apos;]/p/span[1]/span
+ROW OBJECT AT 49org.apache.poi.hssf.usermodel.HSSFRow@16e7dcfd
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_chooseCountry_dropdown_clickCountry
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;country_chosen&apos;]/div/ul/li[2]
+ROW OBJECT AT 50org.apache.poi.hssf.usermodel.HSSFRow@3d121db3
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 51org.apache.poi.hssf.usermodel.HSSFRow@3b07a0d6
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 52org.apache.poi.hssf.usermodel.HSSFRow@11a9e7c8
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+-----------Opening the Browser---------
+webdriver.chrome.driver
+C:\Users\Richa\Desktop\Richa\chromedriver_win32\chromedriver.exe
+Opening Chrome browser
+------------------Reading the EID sheet-------------
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@5ef5c734
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_loginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;LOGIN&apos;]
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@d771cc9
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_SignUpButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;SIGN UP&apos;]
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@36b4091c
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_FreeLancersDropDown
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-menu-freelancer.dropdown&gt;a
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@4671115f
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_EmployerDropDown
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;EMPLOYERS&apos;]
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@36cda2c2
+VALUE OF COL :0        Login page
+VALUE OF COL :1        lp_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@3697186
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@1583741e
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_LoginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Log In&apos;]
+ROW OBJECT AT 8org.apache.poi.hssf.usermodel.HSSFRow@5b367418
+VALUE OF COL :0        SignUp Page
+VALUE OF COL :1        su_employer
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-employer&apos;]/a
+ROW OBJECT AT 9org.apache.poi.hssf.usermodel.HSSFRow@36060e
+VALUE OF COL :0        Sign Up
+VALUE OF COL :1        su_FreelancerBtn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-freelancer&apos;]/a
+ROW OBJECT AT 10org.apache.poi.hssf.usermodel.HSSFRow@481ba2cf
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 11org.apache.poi.hssf.usermodel.HSSFRow@46b61c56
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 12org.apache.poi.hssf.usermodel.HSSFRow@2e48362c
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 13org.apache.poi.hssf.usermodel.HSSFRow@1efe439d
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 14org.apache.poi.hssf.usermodel.HSSFRow@be68757
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 15org.apache.poi.hssf.usermodel.HSSFRow@7d446ed1
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_rePwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 16org.apache.poi.hssf.usermodel.HSSFRow@12d2ce03
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_signup_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 17org.apache.poi.hssf.usermodel.HSSFRow@7e5c856f
+VALUE OF COL :0         Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 18org.apache.poi.hssf.usermodel.HSSFRow@413f69cc
+VALUE OF COL :0        Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 19org.apache.poi.hssf.usermodel.HSSFRow@1f53a5dc
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 20org.apache.poi.hssf.usermodel.HSSFRow@1b75c2e3
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 21org.apache.poi.hssf.usermodel.HSSFRow@1984b1f
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 22org.apache.poi.hssf.usermodel.HSSFRow@3bd323e9
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_rPwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 23org.apache.poi.hssf.usermodel.HSSFRow@39ac0c0a
+VALUE OF COL :0         Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 24org.apache.poi.hssf.usermodel.HSSFRow@c7ba306
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 25org.apache.poi.hssf.usermodel.HSSFRow@4ff8d125
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_button
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Send Password Reset&apos;]
+ROW OBJECT AT 26org.apache.poi.hssf.usermodel.HSSFRow@6d167f58
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_keywordsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[contains(@class,&apos;fre-input-field&apos;)]/input[@id=&apos;s&apos;]
+ROW OBJECT AT 27org.apache.poi.hssf.usermodel.HSSFRow@3403e2ac
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 28org.apache.poi.hssf.usermodel.HSSFRow@65b104b9
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Choose category&apos;]
+ROW OBJECT AT 29org.apache.poi.hssf.usermodel.HSSFRow@6c4980d3
+VALUE OF COL :0        Available Projects Page
+VALUE OF COL :1        Freel_Projects_verifyProjectsText
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .plural
+ROW OBJECT AT 30org.apache.poi.hssf.usermodel.HSSFRow@327bcebd
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Keywords
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;s&apos;]
+ROW OBJECT AT 31org.apache.poi.hssf.usermodel.HSSFRow@19c65cdc
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Skill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 32org.apache.poi.hssf.usermodel.HSSFRow@74bf1791
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@id=&apos;project_category_chosen&apos;]/a
+ROW OBJECT AT 33org.apache.poi.hssf.usermodel.HSSFRow@54504ecd
+VALUE OF COL :0        Update profile button for Freelancers post login on home page
+VALUE OF COL :1        Freel_Update_Profile_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;background_banner&apos;]/div/div/a[2]
+ROW OBJECT AT 34org.apache.poi.hssf.usermodel.HSSFRow@38b27cdc
+VALUE OF COL :0        Freelancer profile Page
+VALUE OF COL :1        Freel_Profilepage_accountDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@href=&apos;#tab_account_details&apos;]
+ROW OBJECT AT 35org.apache.poi.hssf.usermodel.HSSFRow@1339e7aa
+VALUE OF COL :0        FreeLancer profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProfileDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[2]/a
+ROW OBJECT AT 36org.apache.poi.hssf.usermodel.HSSFRow@1fb669c3
+VALUE OF COL :0        Freelancer Project Details on the Profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProjectDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Project Details&apos;]
+ROW OBJECT AT 37org.apache.poi.hssf.usermodel.HSSFRow@49c66ade
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_Messages
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[4]/a/span
+ROW OBJECT AT 38org.apache.poi.hssf.usermodel.HSSFRow@6239aba6
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :2        linkText
+VALUE OF COL :3        INBOX
+ROW OBJECT AT 39org.apache.poi.hssf.usermodel.HSSFRow@3e6104fc
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-account-info.dropdown-toggle
+ROW OBJECT AT 40org.apache.poi.hssf.usermodel.HSSFRow@12359a82
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_myProfile
+VALUE OF COL :2        linkText
+VALUE OF COL :3        MY PROFILE
+ROW OBJECT AT 41org.apache.poi.hssf.usermodel.HSSFRow@68df9280
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_logout
+VALUE OF COL :2        linkText
+VALUE OF COL :3        LOGOUT
+ROW OBJECT AT 42org.apache.poi.hssf.usermodel.HSSFRow@479460a6
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox_SelectSkill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@class=&apos;fre-skill-item&apos;][@name=&apos;alpha-testing&apos;]
+ROW OBJECT AT 43org.apache.poi.hssf.usermodel.HSSFRow@7164ca4c
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 44org.apache.poi.hssf.usermodel.HSSFRow@4f3bbf68
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        html/body/header/div/div/div[3]/ul/li[1]/a/i
+ROW OBJECT AT 45org.apache.poi.hssf.usermodel.HSSFRow@5be46f9d
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd_findProjectsLink
+VALUE OF COL :2        linkText
+VALUE OF COL :3        FIND PROJECTS
+ROW OBJECT AT 46org.apache.poi.hssf.usermodel.HSSFRow@3f91b517
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_dropdown_clicklink
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;project_category_chosen&apos;]/div[@class=&apos;chosen-drop&apos;]/ul/li[2]
+ROW OBJECT AT 47org.apache.poi.hssf.usermodel.HSSFRow@68702e03
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_Box
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;project_category_chosen&apos;]/a/div/b
+ROW OBJECT AT 48org.apache.poi.hssf.usermodel.HSSFRow@7a220c9a
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_verifyText
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;fre-project-result&apos;]/p/span[1]/span
+ROW OBJECT AT 49org.apache.poi.hssf.usermodel.HSSFRow@2421cc4
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_chooseCountry_dropdown_clickCountry
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;country_chosen&apos;]/div/ul/li[2]
+ROW OBJECT AT 50org.apache.poi.hssf.usermodel.HSSFRow@30c93896
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 51org.apache.poi.hssf.usermodel.HSSFRow@59a008ba
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 52org.apache.poi.hssf.usermodel.HSSFRow@338c99c8
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+-----------Navigate to the URL---------
+Navigating to url 
+------------------Reading the EID sheet-------------
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@31ff43be
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_loginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;LOGIN&apos;]
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@5b6ec132
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_SignUpButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;SIGN UP&apos;]
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@5c44c582
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_FreeLancersDropDown
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-menu-freelancer.dropdown&gt;a
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@67d18ed7
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_EmployerDropDown
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;EMPLOYERS&apos;]
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@2c78d320
+VALUE OF COL :0        Login page
+VALUE OF COL :1        lp_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@132e0cc
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@7b205dbd
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_LoginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Log In&apos;]
+ROW OBJECT AT 8org.apache.poi.hssf.usermodel.HSSFRow@106cc338
+VALUE OF COL :0        SignUp Page
+VALUE OF COL :1        su_employer
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-employer&apos;]/a
+ROW OBJECT AT 9org.apache.poi.hssf.usermodel.HSSFRow@7a67e3c6
+VALUE OF COL :0        Sign Up
+VALUE OF COL :1        su_FreelancerBtn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-freelancer&apos;]/a
+ROW OBJECT AT 10org.apache.poi.hssf.usermodel.HSSFRow@6cc558c6
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 11org.apache.poi.hssf.usermodel.HSSFRow@15713d56
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 12org.apache.poi.hssf.usermodel.HSSFRow@63f259c3
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 13org.apache.poi.hssf.usermodel.HSSFRow@26ceffa8
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 14org.apache.poi.hssf.usermodel.HSSFRow@600b90df
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 15org.apache.poi.hssf.usermodel.HSSFRow@7c8c9a05
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_rePwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 16org.apache.poi.hssf.usermodel.HSSFRow@d41f816
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_signup_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 17org.apache.poi.hssf.usermodel.HSSFRow@5c2375a9
+VALUE OF COL :0         Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 18org.apache.poi.hssf.usermodel.HSSFRow@60129b9a
+VALUE OF COL :0        Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 19org.apache.poi.hssf.usermodel.HSSFRow@78d6692f
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 20org.apache.poi.hssf.usermodel.HSSFRow@7a55af6b
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 21org.apache.poi.hssf.usermodel.HSSFRow@3d9c13b5
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 22org.apache.poi.hssf.usermodel.HSSFRow@492691d7
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_rPwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 23org.apache.poi.hssf.usermodel.HSSFRow@27216cd
+VALUE OF COL :0         Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 24org.apache.poi.hssf.usermodel.HSSFRow@558bdf1f
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 25org.apache.poi.hssf.usermodel.HSSFRow@8576fa0
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_button
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Send Password Reset&apos;]
+ROW OBJECT AT 26org.apache.poi.hssf.usermodel.HSSFRow@7582ff54
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_keywordsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[contains(@class,&apos;fre-input-field&apos;)]/input[@id=&apos;s&apos;]
+ROW OBJECT AT 27org.apache.poi.hssf.usermodel.HSSFRow@67545b57
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 28org.apache.poi.hssf.usermodel.HSSFRow@6c2c1385
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Choose category&apos;]
+ROW OBJECT AT 29org.apache.poi.hssf.usermodel.HSSFRow@5f354bcf
+VALUE OF COL :0        Available Projects Page
+VALUE OF COL :1        Freel_Projects_verifyProjectsText
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .plural
+ROW OBJECT AT 30org.apache.poi.hssf.usermodel.HSSFRow@3daf7722
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Keywords
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;s&apos;]
+ROW OBJECT AT 31org.apache.poi.hssf.usermodel.HSSFRow@78641d23
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Skill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 32org.apache.poi.hssf.usermodel.HSSFRow@74589991
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@id=&apos;project_category_chosen&apos;]/a
+ROW OBJECT AT 33org.apache.poi.hssf.usermodel.HSSFRow@146dfe6
+VALUE OF COL :0        Update profile button for Freelancers post login on home page
+VALUE OF COL :1        Freel_Update_Profile_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;background_banner&apos;]/div/div/a[2]
+ROW OBJECT AT 34org.apache.poi.hssf.usermodel.HSSFRow@4716be8b
+VALUE OF COL :0        Freelancer profile Page
+VALUE OF COL :1        Freel_Profilepage_accountDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@href=&apos;#tab_account_details&apos;]
+ROW OBJECT AT 35org.apache.poi.hssf.usermodel.HSSFRow@1fc32e4f
+VALUE OF COL :0        FreeLancer profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProfileDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[2]/a
+ROW OBJECT AT 36org.apache.poi.hssf.usermodel.HSSFRow@2f67b837
+VALUE OF COL :0        Freelancer Project Details on the Profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProjectDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Project Details&apos;]
+ROW OBJECT AT 37org.apache.poi.hssf.usermodel.HSSFRow@1869fbd2
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_Messages
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[4]/a/span
+ROW OBJECT AT 38org.apache.poi.hssf.usermodel.HSSFRow@6af9fcb2
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :2        linkText
+VALUE OF COL :3        INBOX
+ROW OBJECT AT 39org.apache.poi.hssf.usermodel.HSSFRow@6cce16f4
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-account-info.dropdown-toggle
+ROW OBJECT AT 40org.apache.poi.hssf.usermodel.HSSFRow@7efaad5a
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_myProfile
+VALUE OF COL :2        linkText
+VALUE OF COL :3        MY PROFILE
+ROW OBJECT AT 41org.apache.poi.hssf.usermodel.HSSFRow@291a7e3c
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_logout
+VALUE OF COL :2        linkText
+VALUE OF COL :3        LOGOUT
+ROW OBJECT AT 42org.apache.poi.hssf.usermodel.HSSFRow@ca30bc1
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox_SelectSkill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@class=&apos;fre-skill-item&apos;][@name=&apos;alpha-testing&apos;]
+ROW OBJECT AT 43org.apache.poi.hssf.usermodel.HSSFRow@1046d517
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 44org.apache.poi.hssf.usermodel.HSSFRow@3b7d3a38
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        html/body/header/div/div/div[3]/ul/li[1]/a/i
+ROW OBJECT AT 45org.apache.poi.hssf.usermodel.HSSFRow@416c58f5
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd_findProjectsLink
+VALUE OF COL :2        linkText
+VALUE OF COL :3        FIND PROJECTS
+ROW OBJECT AT 46org.apache.poi.hssf.usermodel.HSSFRow@5505ae1a
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_dropdown_clicklink
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;project_category_chosen&apos;]/div[@class=&apos;chosen-drop&apos;]/ul/li[2]
+ROW OBJECT AT 47org.apache.poi.hssf.usermodel.HSSFRow@73cd37c0
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_Box
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;project_category_chosen&apos;]/a/div/b
+ROW OBJECT AT 48org.apache.poi.hssf.usermodel.HSSFRow@21337f7b
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_verifyText
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;fre-project-result&apos;]/p/span[1]/span
+ROW OBJECT AT 49org.apache.poi.hssf.usermodel.HSSFRow@2bb3058
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_chooseCountry_dropdown_clickCountry
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;country_chosen&apos;]/div/ul/li[2]
+ROW OBJECT AT 50org.apache.poi.hssf.usermodel.HSSFRow@7a362b6b
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 51org.apache.poi.hssf.usermodel.HSSFRow@60df60da
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 52org.apache.poi.hssf.usermodel.HSSFRow@5a2d131d
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+-----------Maximizing the Window---------
+------------------Reading the EID sheet-------------
++++++++++++++++Reading Excel Sheet+++++++++
+ROW OBJECT AT 1org.apache.poi.hssf.usermodel.HSSFRow@2fd953a6
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_loginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;LOGIN&apos;]
+ROW OBJECT AT 2org.apache.poi.hssf.usermodel.HSSFRow@a4add54
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_SignUpButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;SIGN UP&apos;]
+ROW OBJECT AT 3org.apache.poi.hssf.usermodel.HSSFRow@141e5bef
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_FreeLancersDropDown
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-menu-freelancer.dropdown&gt;a
+ROW OBJECT AT 4org.apache.poi.hssf.usermodel.HSSFRow@5f9be66c
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        hp_EmployerDropDown
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[text()=&apos;EMPLOYERS&apos;]
+ROW OBJECT AT 5org.apache.poi.hssf.usermodel.HSSFRow@3abada5a
+VALUE OF COL :0        Login page
+VALUE OF COL :1        lp_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[1]/input
+ROW OBJECT AT 6org.apache.poi.hssf.usermodel.HSSFRow@66c61024
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;signin_form&apos;]/div[2]/input
+ROW OBJECT AT 7org.apache.poi.hssf.usermodel.HSSFRow@61fe30
+VALUE OF COL :0        Login Page
+VALUE OF COL :1        lp_LoginButton
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Log In&apos;]
+ROW OBJECT AT 8org.apache.poi.hssf.usermodel.HSSFRow@c9d0d6
+VALUE OF COL :0        SignUp Page
+VALUE OF COL :1        su_employer
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-employer&apos;]/a
+ROW OBJECT AT 9org.apache.poi.hssf.usermodel.HSSFRow@6ccdb29f
+VALUE OF COL :0        Sign Up
+VALUE OF COL :1        su_FreelancerBtn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;register-freelancer&apos;]/a
+ROW OBJECT AT 10org.apache.poi.hssf.usermodel.HSSFRow@3adcc812
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 11org.apache.poi.hssf.usermodel.HSSFRow@35432107
+VALUE OF COL :0        Sign Up Employer Account
+VALUE OF COL :1        EmpSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 12org.apache.poi.hssf.usermodel.HSSFRow@7b420819
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 13org.apache.poi.hssf.usermodel.HSSFRow@7a1a14a4
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 14org.apache.poi.hssf.usermodel.HSSFRow@265adfad
+VALUE OF COL :0        Employer SignUp Page
+VALUE OF COL :1        EmpSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 15org.apache.poi.hssf.usermodel.HSSFRow@a3d9978
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_rePwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 16org.apache.poi.hssf.usermodel.HSSFRow@61544ae6
+VALUE OF COL :0        Employer Sign Up Page
+VALUE OF COL :1        EmpSU_signup_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 17org.apache.poi.hssf.usermodel.HSSFRow@4b41dd5c
+VALUE OF COL :0         Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_firstname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;first_name&apos;]
+ROW OBJECT AT 18org.apache.poi.hssf.usermodel.HSSFRow@3b96c42e
+VALUE OF COL :0        Freelancer Signup Account Page
+VALUE OF COL :1        FreeSU_lastname
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;last_name&apos;]
+ROW OBJECT AT 19org.apache.poi.hssf.usermodel.HSSFRow@5d066c7d
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 20org.apache.poi.hssf.usermodel.HSSFRow@1e461e41
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_username
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_login&apos;]
+ROW OBJECT AT 21org.apache.poi.hssf.usermodel.HSSFRow@5ba88be8
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_password
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_pass&apos;]
+ROW OBJECT AT 22org.apache.poi.hssf.usermodel.HSSFRow@56928307
+VALUE OF COL :0        Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_rPwd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;repeat_pass&apos;]
+ROW OBJECT AT 23org.apache.poi.hssf.usermodel.HSSFRow@3899782c
+VALUE OF COL :0         Freelancer Sign Up Account Page
+VALUE OF COL :1        FreeSU_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Sign Up&apos;]
+ROW OBJECT AT 24org.apache.poi.hssf.usermodel.HSSFRow@1603cd68
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_email
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;user_email&apos;]
+ROW OBJECT AT 25org.apache.poi.hssf.usermodel.HSSFRow@9ebe38b
+VALUE OF COL :0        Forgot Password Page
+VALUE OF COL :1        ForgotPwd_button
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//button[text()=&apos;Send Password Reset&apos;]
+ROW OBJECT AT 26org.apache.poi.hssf.usermodel.HSSFRow@4b23c30a
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_keywordsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[contains(@class,&apos;fre-input-field&apos;)]/input[@id=&apos;s&apos;]
+ROW OBJECT AT 27org.apache.poi.hssf.usermodel.HSSFRow@38089a5a
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 28org.apache.poi.hssf.usermodel.HSSFRow@30e868be
+VALUE OF COL :0        Available Projects Page for FreeLancers
+VALUE OF COL :1        Freel_Projects_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Choose category&apos;]
+ROW OBJECT AT 29org.apache.poi.hssf.usermodel.HSSFRow@66c92293
+VALUE OF COL :0        Available Projects Page
+VALUE OF COL :1        Freel_Projects_verifyProjectsText
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .plural
+ROW OBJECT AT 30org.apache.poi.hssf.usermodel.HSSFRow@332796d3
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Keywords
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;s&apos;]
+ROW OBJECT AT 31org.apache.poi.hssf.usermodel.HSSFRow@4f0100a7
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_Skill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 32org.apache.poi.hssf.usermodel.HSSFRow@3cdf2c61
+VALUE OF COL :0        Available Profiles Page
+VALUE OF COL :1        Empl_Profiles_category
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@id=&apos;project_category_chosen&apos;]/a
+ROW OBJECT AT 33org.apache.poi.hssf.usermodel.HSSFRow@13ad5cd3
+VALUE OF COL :0        Update profile button for Freelancers post login on home page
+VALUE OF COL :1        Freel_Update_Profile_bttn
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;background_banner&apos;]/div/div/a[2]
+ROW OBJECT AT 34org.apache.poi.hssf.usermodel.HSSFRow@1c33c17b
+VALUE OF COL :0        Freelancer profile Page
+VALUE OF COL :1        Freel_Profilepage_accountDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@href=&apos;#tab_account_details&apos;]
+ROW OBJECT AT 35org.apache.poi.hssf.usermodel.HSSFRow@5bf0fe62
+VALUE OF COL :0        FreeLancer profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProfileDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[2]/a
+ROW OBJECT AT 36org.apache.poi.hssf.usermodel.HSSFRow@1e097d59
+VALUE OF COL :0        Freelancer Project Details on the Profile Page
+VALUE OF COL :1        Freel_ProfilePage_ProjectDetails
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//span[text()=&apos;Project Details&apos;]
+ROW OBJECT AT 37org.apache.poi.hssf.usermodel.HSSFRow@673be18f
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_Messages
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;myTab&apos;]/li[4]/a/span
+ROW OBJECT AT 38org.apache.poi.hssf.usermodel.HSSFRow@6581dc0a
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon
+VALUE OF COL :2        linkText
+VALUE OF COL :3        INBOX
+ROW OBJECT AT 39org.apache.poi.hssf.usermodel.HSSFRow@39de3d36
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_InboxLink
+VALUE OF COL :2        cssSelector
+VALUE OF COL :3        .fre-account-info.dropdown-toggle
+ROW OBJECT AT 40org.apache.poi.hssf.usermodel.HSSFRow@6ce86ce1
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_myProfile
+VALUE OF COL :2        linkText
+VALUE OF COL :3        MY PROFILE
+ROW OBJECT AT 41org.apache.poi.hssf.usermodel.HSSFRow@54e7df6a
+VALUE OF COL :0        Freelancer Profile Page
+VALUE OF COL :1        Freel_ProfilePage_AfterLoginIcon_logout
+VALUE OF COL :2        linkText
+VALUE OF COL :3        LOGOUT
+ROW OBJECT AT 42org.apache.poi.hssf.usermodel.HSSFRow@3fed2870
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox_SelectSkill
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//a[@class=&apos;fre-skill-item&apos;][@name=&apos;alpha-testing&apos;]
+ROW OBJECT AT 43org.apache.poi.hssf.usermodel.HSSFRow@77128536
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_SkillsBox
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//input[@id=&apos;skills&apos;]
+ROW OBJECT AT 44org.apache.poi.hssf.usermodel.HSSFRow@58326051
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd
+VALUE OF COL :2        xpath
+VALUE OF COL :3        html/body/header/div/div/div[3]/ul/li[1]/a/i
+ROW OBJECT AT 45org.apache.poi.hssf.usermodel.HSSFRow@32c4e8b2
+VALUE OF COL :0        Home Page
+VALUE OF COL :1        Freelancer_findproj_dd_findProjectsLink
+VALUE OF COL :2        linkText
+VALUE OF COL :3        FIND PROJECTS
+ROW OBJECT AT 46org.apache.poi.hssf.usermodel.HSSFRow@64bce832
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_dropdown_clicklink
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//*[@id=&apos;project_category_chosen&apos;]/div[@class=&apos;chosen-drop&apos;]/ul/li[2]
+ROW OBJECT AT 47org.apache.poi.hssf.usermodel.HSSFRow@764faa6
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_projCategory_Box
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;project_category_chosen&apos;]/a/div/b
+ROW OBJECT AT 48org.apache.poi.hssf.usermodel.HSSFRow@4c1f22f3
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_verifyText
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@class=&apos;fre-project-result&apos;]/p/span[1]/span
+ROW OBJECT AT 49org.apache.poi.hssf.usermodel.HSSFRow@598bd2ba
+VALUE OF COL :0        Freelancer Find Projects Page
+VALUE OF COL :1        Freel_Projects_chooseCountry_dropdown_clickCountry
+VALUE OF COL :2        xpath
+VALUE OF COL :3        .//div[@id=&apos;country_chosen&apos;]/div/ul/li[2]
+ROW OBJECT AT 50org.apache.poi.hssf.usermodel.HSSFRow@5a755cc1
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 51org.apache.poi.hssf.usermodel.HSSFRow@7ae42ce3
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+ROW OBJECT AT 52org.apache.poi.hssf.usermodel.HSSFRow@4f5991f6
+VALUE OF COL :0        null
+VALUE OF COL :1        
+VALUE OF COL :2        
+VALUE OF COL :3        
+-----------Clicking the Link---------html/body/header/div/div/div[4]/div/ul/li[1]/a
+The element type is:null
+</system-out>
+    <system-err>Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 14907
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Aug 09, 2017 3:36:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+</testsuite>

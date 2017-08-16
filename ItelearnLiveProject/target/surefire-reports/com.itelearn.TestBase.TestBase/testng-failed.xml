@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.itelearn.TestBase.TestBase]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.itelearn.TestBase.TestBase">
+        <methods>
+          <include name="basetest"/>
+          <include name="settingBrowserProperties"/>
+        </methods>
+      </class> <!-- com.itelearn.TestBase.TestBase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.itelearn.TestBase.TestBase] -->
